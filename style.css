@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     background-color: rgb(35, 35, 36);
     font-family: 'Poppins', sans-serif;
@@ -18,6 +22,7 @@ body {
     align-items: center;
     height: 100vh;
     gap: 30px;
+    background-color: black;
 }
 
 h2 {
@@ -95,9 +100,16 @@ h2 {
     animation-delay: 3.5s;
     animation-fill-mode: forwards;
 }
+.tt6 {
+    transform: translateY(100vh);
+    animation-name: t1;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
 
 .links a:hover{
-    transform: scale(104%);
+    transform: scale(110%);
     background-color: rgb(88, 94, 102);
     color: white;
 }

@@ -22,27 +22,12 @@
             <a href="https://github.com" class="tt3"><i class='bx bxl-github'></i></a>
             <a href="https://docs.google.com" class="tt4"><i class='bx bxs-file-doc'></i></a>
             <a href="https://linkedin.com" class="tt5"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://monkeytype.com" class="tt6"><i class='bx bxl-typescript'></i></a>
         </div>
     </div>
 
     <!-- javascript -->
-    <script>
-        function buttonClick() {
-            var kkk = document.getElementById("searchBox").value;
-            var link = "https://duckduckgo.com/?q=" + kkk;
-            window.location = link;
-            document.getElementById("searchBox").value = "";
-        }
-        var input = document.getElementById("searchBox");
-        input.addEventListener("keypress", function (event) {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-                document.getElementById("searchButton").click();
-            }
-        })
-
-
-        </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
